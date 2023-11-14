@@ -1,0 +1,486 @@
+
+/*/global css code start/*/
+
+
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+ul{
+ margin: 0;
+ padding: 0;
+
+}
+
+li{
+
+	list-style: none;
+}
+
+/*/global css code end/*/
+
+
+
+
+/*/header section css code start/*/
+
+
+.navbar-brand img{
+   width: 20%;
+   height: auto;
+}
+
+
+
+.header-section .nav-link{
+
+	margin-left: 18px;
+	font-size: 17px;
+	font-weight: 600;
+	color: #1974D2 !important;
+
+}
+
+.header-section .nav-link:hover{
+
+	
+	color: #000 !important;
+
+}
+
+
+
+.header-section{
+     
+     width: 100%;
+     background: url(../img/banner.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 90vh;
+
+}
+
+.header-section .banner-part{
+
+	margin-top: 50px;
+}
+
+.header-section .banner-part h1{
+   
+   font-size: 50px;
+   font-weight: 600;
+
+	
+}
+
+.header-section .banner-part h2{
+   
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 20px;
+
+
+	
+}
+
+.header-section .banner-part h1 span{
+   
+   font-weight: 300;
+   color: #1974D2;
+	
+}
+
+
+.header-section .banner-part .line{
+
+	width: 20%;
+	height: 3px;
+	background:#1974D2;
+	margin: 25px 0px;
+
+}
+
+.header-section .btn-primary{
+    
+    background: transparent;
+    color: #1974D2;
+    border: 2px solid #87AFC7;
+    padding: 8px 25px;
+    margin-top: 10px;
+    transition: 0.6s;
+
+}
+
+.header-section .btn-primary:hover{
+    
+    background: #1974D2;
+    color: #fff;
+    border: 2px solid #1974D2;
+    
+    transition: 0.6s;
+
+}
+
+.header-section .img-part img{
+
+	width: 115%;
+	height: auto;
+	margin-top: 30px;
+
+}
+
+/*/header section css code end/*/
+
+
+
+/*/feature section css code start/*/
+
+.feature-section{
+
+width: 100%;
+background-color: #fff;
+padding: 80px 0px;
+}
+
+.feature-section .feature-part{
+
+margin-top: 40px;
+	
+}
+
+.feature-section .feature-part .img-part{
+
+text-align: center;
+padding: 15px 20px;
+box-shadow: none;
+transition: 0.5s;
+color:gray ;
+
+	
+}
+
+.feature-section .feature-part .img-part:hover{
+
+	box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+	transition: 0.5s;
+}
+
+
+
+.feature-section .feature-part .part-1{
+
+margin-top: 20px;
+
+	
+}
+
+
+
+.feature-section .feature-part .img-part1{
+
+text-align: center;
+padding: 15px 20px;
+box-shadow: none;
+transition: 0.5s;
+color:gray ;
+
+	
+}
+
+
+
+.feature-section .feature-part .img-part1:hover{
+
+	box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+	transition: 0.5s;
+}
+
+
+.feature-section .feature-part .img-part1 img{
+
+
+width: 75%;
+	
+}
+/*/feature section css code end/*/
+
+
+
+/*/form section css code start/*/
+
+.from-section{
+  
+  background: #000;
+
+
+}
+
+
+.from-section .form-bar{
+
+    width: 100%;
+	padding: 60px 250px ;
+	height: auto;
+
+}
+
+.from-section .form-bar input{
+
+   padding: 15px;
+   margin-bottom: 12px;
+   border: none;
+   width: 90%;
+   text-transform: capitalize;
+
+	
+}
+
+/*/form section button css code start/*/
+
+.from-section .form-bar a{
+
+ background: transparent;
+    color: #fff;
+    border: 3px solid #fff ;
+    padding: 8px 25px;
+    margin-top: 17px;
+    transition: 0.5s;
+    margin-left: 220px;
+    font-weight: 600;
+
+}
+
+
+
+.from-section .form-bar a:hover{
+
+  background: #1974D2;
+    color: #fff;
+    border: 3px solid #1974D2;
+    
+    transition: 0.5s;
+
+}
+
+/*/form section button css code end/*/
+
+
+
+/*/form section css code end/*/
+
+
+
+
+/*/extra section code start/*/
+
+
+.extra-section{
+
+	width: 100%;
+
+}
+
+.extra-section .banner-part{
+width: 100%;
+     background: url(../img/e.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 75vh;
+
+	
+}
+
+.extra-section .banner-part .line{
+
+	width: 20%;
+	height: 3px;
+	background:#1974D2;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+
+
+
+}
+
+.extra-section .banner-part{
+
+	text-align: center;
+	color: #fff;
+}
+
+.banner-part h1{
+	 padding-top: 30px;
+	
+}
+
+.extra-section .banner-part h2{
+	 padding: 0px 195px;
+	 padding-bottom: 20px;
+	 font-size: 22px;
+	 font-weight: 300;
+	
+}
+
+.extra-section .banner-part p{
+
+	 padding: 20px 200px;
+}
+
+.extra-section .banner-part a{
+	
+   
+    border: 3px solid #1974D2;
+    padding: 8px 25px;
+    margin-top: 10px;
+    transition: 0.5s;
+    font-weight: 600;
+	
+}
+
+.extra-section .banner-part a:hover{
+	background: #fff; 
+    color: #1974D2;
+    border: 3px solid #fff;
+    transition: 0.5s;
+    font-weight: 600;
+	
+}
+
+
+
+/*/extra section code end/*/
+
+
+
+
+
+
+
+
+
+/*footer section css start*/
+
+
+
+.footer-section{
+	background:#488AC7 !important
+}
+.footer-section .img-part {
+	padding: 40px;
+	margin-top: 20px;
+}
+.footer-section .img-part img{
+	width: 60%;
+	height: auto;
+}
+.footer-section .icon-part{
+	    margin-top: 60px;
+      text-align: center;
+}
+.footer-section .icon-part ul{
+ margin-bottom: 10px;
+
+}
+
+.footer-section .icon-part ul li{
+	display: inline-block;
+	 margin-right: 30px;
+	 margin-bottom: 20px;
+
+}
+	
+.footer-section .icon-part i{
+	font-size: 30px;
+	transition: 0.5s;
+	margin-left: 6px;
+
+}
+
+.footer-section .icon-part i:hover{
+	color:#fff;
+	transition: 0.5s;
+}
+
+
+
+.footer-section h5{
+	color: black;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 40px;
+	margin-right: 180px;
+	text-align: left;
+}
+
+.footer-section h6{
+	color: black;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 40px;
+	margin-right: 180px;
+	text-align: left;
+}
+
+.footer-section h6{
+	color: black;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 40px;
+	margin-right: 180px;
+	text-align: left;
+	transition: 0.5s;
+}
+
+.footer-section ul{
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.footer-section .col-lg-3 h6:hover{
+
+	color: #fff !important;
+	transition: 0.5s;
+}
+
+.footer-section .copyright p{
+    text-transform: uppercase;
+    margin-left: -15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 17px;
+}
+
+.footer-section .copyright span{
+   color: #fff;
+   font-weight: 700;
+}
+
+
+
+
+
+
+/*footer section css end*/
+
